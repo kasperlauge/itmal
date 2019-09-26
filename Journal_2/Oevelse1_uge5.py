@@ -63,9 +63,9 @@ print('Korrelations Koefficient er: {0:.5f}'.format(corrcoef[1,0]))
 
 #%% Percentile calculations
 percentile_5 = np.percentile(y, 5)
-print('Den 5 percentile er: {}$'.format(int(percentile_5*100000))
+print('Den 5 percentile er: {}$'.format(int(percentile_5*100000)))
 percentile_95 = np.percentile(y, 95)
-print('Den 95 percentile er: {}$'.format(int(percentile_95*100000))
+print('Den 95 percentile er: {}$'.format(int(percentile_95*100000)))
 
 
 #%% Histogram plot for median house value
